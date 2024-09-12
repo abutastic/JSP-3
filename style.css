@@ -1,0 +1,33 @@
+body{
+    background-color: chocolate;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+input{
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: burlywood;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: rgb(195, 136, 59);
+}
